@@ -26,9 +26,6 @@ $ npm start
 ```
 
 The Server should now be running on [localhost:3000](http://localhost:3000/) and You will see console log "Listening at:3000".
-You can run client.js to test JSON request and response. Open a new terminal:
-
-$ node client.js
 
 To stop the server, press Ctrl+C
 
@@ -37,9 +34,23 @@ To stop the server, press Ctrl+C
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 Upload the whole folder to your host. Run the server:
 
+```sh
+
 $ node index.js
 
+```
+
 The current version of wonservice is uploaded to service.wonlure.com and the server is running. 
+
+## Test by client.js 
+
+You can run client.js to test JSON request and response. Open a new terminal:
+
+```sh
+
+$ node client.js
+
+```
 
 ## Test by Hostman
 
