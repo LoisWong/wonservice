@@ -15,12 +15,19 @@ $ npm install
 $ npm start
 
 ```
+For Nine Visiters:
+
+$ git clone https://github.com/LoisWong/wonservice.git
+$ cd wonservice
+$ npm install
+$ npm start
 
 The Server should now be running on [localhost:3000](http://localhost:3000/) and You will see console log "Listening at:3000".
 You can run client.js to test JSON request and response. Open a new terminal:
 
 $ node client.js
 
+To stop the server, press Ctrl+C
 
 ## Deploying to Host
 
@@ -33,7 +40,7 @@ The current version of wonservice is uploaded to service.wonlure.com and the ser
 
 ## Test by Hostman
 
-Download [Hostman API](https://www.getpostman.com/) POST to service.wonlure.com/ or your ip(domain) address.
+Download [Hostman API](https://www.getpostman.com/), POST to service.wonlure.com/ or your ip(domain) address.
 In Body part select RAW with JSON type and type test data. Then send. 
 
 
