@@ -1,0 +1,26 @@
+{
+  "name": "wonservice",
+  "version": "0.0.1",
+  "description": "A sample Node.js app for get and send JSON",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/wonservice.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "JSON"
+  ],
+  "license": "MIT"
+}
