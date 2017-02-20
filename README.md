@@ -17,10 +17,13 @@ $ npm start
 ```
 For Nine Visiters:
 
+```sh
 $ git clone https://github.com/LoisWong/wonservice.git
 $ cd wonservice
 $ npm install
 $ npm start
+
+```
 
 The Server should now be running on [localhost:3000](http://localhost:3000/) and You will see console log "Listening at:3000".
 You can run client.js to test JSON request and response. Open a new terminal:
